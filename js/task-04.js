@@ -5,11 +5,15 @@ let counterValue = 0;
 
 function increaseValue() {
   counterValue += 1;
-  valueEl.textContent = counterValue;
+  showResult();
 }
 
 function decreaseValue() {
   counterValue -= 1;
+  showResult();
+}
+
+function showResult() {
   valueEl.textContent = counterValue;
 }
 

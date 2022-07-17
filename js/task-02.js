@@ -7,8 +7,6 @@ const ingredients = [
   "Condiments",
 ];
 
-//<li class="item">Potatoes</li> etcetera
-
 const ulEl = document.querySelector("#ingredients");
 
 const createItem = [...ingredients].map((item) => {

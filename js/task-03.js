@@ -13,9 +13,6 @@ const images = [
   },
 ];
 
-//<li><img src="" alt=""></li>
-//using insertAdjacentHTML()
-
 const ulEl = document.querySelector(".gallery");
 
 const list = [...images]
